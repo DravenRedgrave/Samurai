@@ -26,3 +26,13 @@ var swiper = new Swiper('.swiper-container', {
        if (nav.className != 'active') {nav.className = 'active';}
        else {nav.className = '';}
    });
+
+
+$(document).ready(function() {
+  $('.power').click(function() {
+      $('.popup').slideToggle(300);
+    $('.close-drop').click(function() {
+      $('.close-drop').toggleClass('close')
+    })
+  });
+});
