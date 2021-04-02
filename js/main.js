@@ -11,6 +11,16 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
+
+var swiper = new Swiper('.conainer-2', {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+});
+
  $(document).ready(function() {
    $('.cart-up').click(function(evt){
      evt.preventDefault(); /// данная функция не позволяет браузеру перйти по ссылку окружающий обзац
